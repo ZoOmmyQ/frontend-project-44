@@ -3,9 +3,11 @@
 
 1. Clone repository  type: git clone https://github.com/ZoOmmyQ/frontend-project-44.git
 
-2. in the root of a project type: npm -install
-then link with command : npm -link
-<a href="asciicast-dOTnGrz4v3b36sGnyl4qMJE2n" target="_blank"><img src="https://asciinema.org/a/dOTnGrz4v3b36sGnyl4qMJE2n.svg"></a>
+2. in the root of a project type: npm install
+
+<a href="https://asciinema.org/a/PuTP4dhvDYvbdHAICNnAeXT4X" target="_blank"><img src="https://asciinema.org/a/PuTP4dhvDYvbdHAICNnAeXT4X.svg" /></a>
+
+
  
  All the games need 3 correct answers to win
 
