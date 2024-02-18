@@ -21,14 +21,14 @@ then link with command : npm -link
 
  <a href="https://asciinema.org/a/lS4PjK6e6XyCnTmZe2xzQFgjW" target="_blank"><img src="https://asciinema.org/a/lS4PjK6e6XyCnTmZe2xzQFgjW.svg" /></a>
 
- Game " Find the Greatest Common Divisor (DCG)" - to run type : brain-dcd
+ Game " Find the Greatest Common Divisor (GCD)" - to run type : brain-gcd
 
  <a href="https://asciinema.org/a/XuDGuRZX8PFzkvDbjw39TIHyB" target="_blank"><img src="https://asciinema.org/a/XuDGuRZX8PFzkvDbjw39TIHyB.svg" /></a>
 
  Game " Is a number prime" - to run type: brain-prime
 
  <a href="https://asciinema.org/a/3CtQTgYXOrMxk1mTsbSiLdPI7" target="_blank"><img src="https://asciinema.org/a/3CtQTgYXOrMxk1mTsbSiLdPI7.svg" /></a>
- 
+
 
 
 
