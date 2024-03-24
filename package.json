@@ -1,13 +1,13 @@
 {
-  "name": "@hexlet/code",
+  "name": "frontend-project-44",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/ZoOmmyQ/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/ZoOmmyQ/frontend-project-44/actions)",
+  "description": "Training project JS brain-games",
   "main": "bin/brain-games.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "ZoOmmyQ",
   "license": "ISC",
   "bin": {
     "brain-games": "bin/brain-games.js",

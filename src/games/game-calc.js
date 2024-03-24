@@ -1,22 +1,20 @@
-import getRandomNumber from '../getRandomNumber.js';
+import getRandomNumber from '../utils/getRandomNumber.js';
 
 import playGame from '../index.js';
 
 const rule = 'What is the result of the expression?';
 const operations = ['+', '-', '*'];
 const getCorrectAnswer = (operand1, operand2, operation) => {
-  let answer;
   switch (operation) {
-    case '+': answer = operand1 + operand2;
-      break;
-    case '-': answer = operand1 - operand2;
-      break;
-    case '*': answer = operand1 * operand2;
-      break;
+    case '+':
+      return operand1 + operand2;
+    case '-':
+      return operand1 - operand2;
+    case '*':
+      return operand1 * operand2;
     default:
-      break;
+      return null;
   }
-  return answer;
 };
 const getQuestionAndAnswer = () => {
   const operand1 = getRandomNumber();
