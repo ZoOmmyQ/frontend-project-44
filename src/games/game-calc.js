@@ -13,7 +13,7 @@ const getCorrectAnswer = (operand1, operand2, operation) => {
     case '*':
       return operand1 * operand2;
     default:
-      return null;
+      throw new Error(`Unknown operation state: '${operation}'!`);
   }
 };
 const getQuestionAndAnswer = () => {
@@ -24,7 +24,7 @@ const getQuestionAndAnswer = () => {
   const answer = getCorrectAnswer(operand1, operand2, operation);
   return [question, String(answer)];
 };
-const initGameCalc = () => {
+const startGameCalc = () => {
   playGame(rule, getQuestionAndAnswer);
 };
-export default initGameCalc;
+export default startGameCalc;

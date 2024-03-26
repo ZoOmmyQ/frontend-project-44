@@ -1,4 +1,6 @@
-import getRandomNumber from '../getRandomNumber.js';
+import getRandomNumber from '../utils/getRandomNumber.js';
+
+import getStringAnswer from '../utils/boolean.js';
 
 import playGame from '../index.js';
 
@@ -8,12 +10,13 @@ const isEvenNumber = (num) => num % 2 === 0;
 
 const getQuestionAndAnswer = () => {
   const question = getRandomNumber();
-  const answer = isEvenNumber(question) ? 'yes' : 'no';
+  const result = isEvenNumber(question);
+  const answer = getStringAnswer(result);
   return [question, answer];
 };
 
-const initGameEven = () => {
+const startGameEven = () => {
   playGame(rule, getQuestionAndAnswer);
 };
 
-export default initGameEven;
+export default startGameEven;

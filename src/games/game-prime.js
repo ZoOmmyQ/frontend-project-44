@@ -2,6 +2,8 @@ import getRandomNumber from '../utils/getRandomNumber.js';
 
 import playGame from '../index.js';
 
+import getStringAnswer from '../utils/boolean.js';
+
 const rule = 'Answer "yes" if given number is prime. Otherwise answer "no". ';
 
 const isPrimeNumber = (num) => {
@@ -9,14 +11,17 @@ const isPrimeNumber = (num) => {
     if (num % i === 0) {
       return false;
     }
-  } return num > 1;
+  }
+
+  return num > 1;
 };
 const getQuestionAndAnswer = () => {
   const question = getRandomNumber();
-  const answer = isPrimeNumber(question) ? 'yes' : 'no';
+  const result = isPrimeNumber(question);
+  const answer = getStringAnswer(result);
   return [question, answer];
 };
-const initGamePrime = () => {
+const startGamePrime = () => {
   playGame(rule, getQuestionAndAnswer);
 };
-export default initGamePrime;
+export default startGamePrime;
