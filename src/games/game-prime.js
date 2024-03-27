@@ -2,7 +2,7 @@ import getRandomNumber from '../utils/getRandomNumber.js';
 
 import playGame from '../index.js';
 
-import getStringAnswer from '../utils/boolean.js';
+import getStringAnswer from '../utils/getStringAnswer.js';
 
 const rule = 'Answer "yes" if given number is prime. Otherwise answer "no". ';
 

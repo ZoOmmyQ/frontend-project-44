@@ -1,6 +1,6 @@
 import getRandomNumber from '../utils/getRandomNumber.js';
 
-import getStringAnswer from '../utils/boolean.js';
+import getStringAnswer from '../utils/getStringAnswer.js';
 
 import playGame from '../index.js';
 
