@@ -7,13 +7,14 @@ import getStringAnswer from '../utils/getStringAnswer.js';
 const rule = 'Answer "yes" if given number is prime. Otherwise answer "no". ';
 
 const isPrimeNumber = (num) => {
-  for (let i = 2; i < num / 2; i += 1) {
+  let result = true;
+  for (let i = 2, max = Math.sqrt(num); i <= max; i += 1) {
     if (num % i === 0) {
-      return false;
+      result = false;
     }
   }
 
-  return num > 1;
+  return result;
 };
 const getQuestionAndAnswer = () => {
   const question = getRandomNumber();
