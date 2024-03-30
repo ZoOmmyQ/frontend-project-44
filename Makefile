@@ -23,14 +23,7 @@ publish:
 		npm publish --dry-run
 
 lint:
-<<<<<<< Updated upstream
-npx eslint
-
-lint-fix:
-npx eslint --fix
-=======
 		npx eslint
 
 lint-fix:
 		npx eslint --fix.		
->>>>>>> Stashed changes
