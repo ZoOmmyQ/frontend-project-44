@@ -2,14 +2,13 @@ import getRandomNumber from '../utils/getRandomNumber.js';
 
 import playGame from '../index.js';
 
-const rule = ('What number is missing in the progression? ');
+const rule = 'What number is missing in the progression? ';
 
-const generateProgression = () => {
-  const progressionLength = 10;
+const generateProgression = (length) => {
   const firstNum = getRandomNumber();
-  const diffProgression = getRandomNumber(0, progressionLength);
+  const diffProgression = getRandomNumber(0, length);
   const progression = [];
-  for (let i = 0; i < progressionLength; i += 1) {
+  for (let i = 0; i < length; i += 1) {
     progression.push(firstNum + diffProgression * i);
   }
   return progression;
