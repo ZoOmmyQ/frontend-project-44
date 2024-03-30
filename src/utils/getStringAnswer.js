@@ -1,4 +1,2 @@
-const getStringAnswer = (question) => {
-  question ? 'yes' : 'no';
-};
+const getStringAnswer = (question) => question ? 'yes' : 'no';
 export default getStringAnswer;
